@@ -1,0 +1,10 @@
+
+<script>
+function clickedButton() { // defines the clickedButton function, which will be called when the button is clicked
+	var xhr = new XMLHttpRequest(); // creates a XMLHttpRequest object
+	xhr.open('POST', '/clicked', true); // the first argument is the type of request it will create, which is a POST request
+	// the second argument is the url path, which we set to /clicked
+	// the third one says if it's gonna be asynchronous or not, but that's pretty hard to explain so let's just leave it at true
+	xhr.send('The button was clicked!'); // sends the data to the server
+}
+</script>

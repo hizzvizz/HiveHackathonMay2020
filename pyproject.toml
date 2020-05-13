@@ -1,0 +1,16 @@
+[build-system]
+build-backend = "poetry.masonry.api"
+requires = ["poetry>=0.12"]
+
+[tool]
+[tool.poetry]
+authors = ["Your Name <you@example.com>"]
+description = ""
+name = "hackathon-may1-may16"
+version = "0.1.0"
+[tool.poetry.dependencies]
+beem = "^0.23.1"
+flask = "^1.1"
+python = "^3.7"
+remi = "^2020.3"
+[tool.poetry.dev-dependencies]
