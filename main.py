@@ -1,6 +1,6 @@
 # Name: Ruben Alexander
 # Url: https://peakd.com/@rubenalexander
-# Hackathon Submission Post Url: https://peakd.com/
+# Hackathon Submission Post Url: https://peakd.com/hive/@rubenalexander/my-hive-hackathon-submission
 # Date/Time: 5/13/2020 2:05 PM EST
 
 from beem.discussions import Query, Trending_tags
