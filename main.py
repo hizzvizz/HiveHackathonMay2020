@@ -2,41 +2,6 @@
 # Url: https://peakd.com/@rubenalexander
 # Hackathon Submission Post Url: https://peakd.com/
 # Date/Time: 5/13/2020 2:05 PM EST
-"""
-- STAGE ONE: 
--- game TQ: Ten Questions about the hive blockchain!
--- game to guess stats about hive
--- stats: comments, payouts, posts
--- gamer chooses 10 tags. 
--- code generates 10 questions multiple _choice
--- 5 points for a close answer, 10 points for the exact answer
--- (started on 5/1 bug free as of 5/2)
-
-- STAGE TWO: 
--- present the game as 'pleasing to the eye' website
--- write hive post with proper tags
--- include link to game in post
--- code is migrated to a public repo on github
--- update post with github link
--- submit to Hackathon discord when stage two is complete
-
-- STAGE THREE: 
--- report game resuls to hive as a post from a dedicated
-hive account.
--- comments -> results for each answer
-
-- BONUS: 
--- retro graphics and a mouth speaking the words
--- words for each question are spoken with computer voice
-
-"""
-"""
-imported remi and beem
-"""
-
-"""
-https://healeycodes.com/javascript/python/beginners/webdev/2019/04/11/talking-between-languages.html
-"""
 
 from beem.discussions import Query, Trending_tags
 import random
@@ -103,15 +68,6 @@ while chosen < question_max:
     print("You added: " + str(taglist[x-1]))
     taglist.remove(taglist[x-1])
     chosen+=1
-"""
-f = open("index.html", "w")
-f.write("<html><p>" + str(categories[0]) + "</p></html>")
-f.close()
-
-f = open("index.html", "r")
-print(f.read())
-"""
-
 
 print()
 print('Your tags selection is complete.')
